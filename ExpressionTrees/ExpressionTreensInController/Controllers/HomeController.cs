@@ -7,7 +7,7 @@ namespace ExpressionTreesInController.Controllers
 
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(string str, int intVal)
         {
             return View();
         }
